@@ -25,9 +25,9 @@ People.defaultProps = {
 };
 
 People.propTypes = {
-    //Avatar
+    /** Avatar*/
     imgUrl: PropTypes.string,
-    //Nickname
+    /** Nickname */
     children: PropTypes.string.isRequired
 };
 

@@ -4,7 +4,7 @@ import People from "../components/People";
 
 export default {
     title: 'People',
-    component: People,
+    component: People
 };
 
 const Template = (args) => <People {...args} />;
